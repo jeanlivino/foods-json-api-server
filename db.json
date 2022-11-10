@@ -1,16 +1,2984 @@
 {
-  "posts":[
+  "foods": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+      "food": "Acarajé",
+      "category": "Alimentos preparados",
+      "kcal": 289
+    },
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "food": "Arroz carreteiro",
+      "category": "Alimentos preparados",
+      "kcal": 154
+    },
+    {
+      "food": "Baião de dois, arroz e feijão-de-corda",
+      "category": "Alimentos preparados",
+      "kcal": 136
+    },
+    {
+      "food": "Barreado",
+      "category": "Alimentos preparados",
+      "kcal": 165
+    },
+    {
+      "food": "Bife à cavalo, com cona filé",
+      "category": "Alimentos preparados",
+      "kcal": 291
+    },
+    {
+      "food": "Bolinho de arroz",
+      "category": "Alimentos preparados",
+      "kcal": 274
+    },
+    {
+      "food": "Camarão à baia",
+      "category": "Alimentos preparados",
+      "kcal": 101
+    },
+    {
+      "food": "Charuto, de repolho",
+      "category": "Alimentos preparados",
+      "kcal": 78
+    },
+    {
+      "food": "Cuscuz, de milho, cozido com sal",
+      "category": "Alimentos preparados",
+      "kcal": 113
+    },
+    {
+      "food": "Cuscuz, paulista",
+      "category": "Alimentos preparados",
+      "kcal": 142
+    },
+    {
+      "food": "Cuxá, molho",
+      "category": "Alimentos preparados",
+      "kcal": 80
+    },
+    {
+      "food": "Dobradinha",
+      "category": "Alimentos preparados",
+      "kcal": 125
+    },
+    {
+      "food": "Estrogonofe de carne",
+      "category": "Alimentos preparados",
+      "kcal": 173
+    },
+    {
+      "food": "Estrogonofe de frango",
+      "category": "Alimentos preparados",
+      "kcal": 157
+    },
+    {
+      "food": "Feijão tropeiro mineiro",
+      "category": "Alimentos preparados",
+      "kcal": 152
+    },
+    {
+      "food": "Feijoada",
+      "category": "Alimentos preparados",
+      "kcal": 117
+    },
+    {
+      "food": "Frango, com açafrão",
+      "category": "Alimentos preparados",
+      "kcal": 113
+    },
+    {
+      "food": "Macarrão, molho bolognesa",
+      "category": "Alimentos preparados",
+      "kcal": 120
+    },
+    {
+      "food": "Maniçoba",
+      "category": "Alimentos preparados",
+      "kcal": 134
+    },
+    {
+      "food": "Quibebe",
+      "category": "Alimentos preparados",
+      "kcal": 86
+    },
+    {
+      "food": "Salada, de legumes, com maionese",
+      "category": "Alimentos preparados",
+      "kcal": 96
+    },
+    {
+      "food": "Salada, de legumes, cozida no vapor",
+      "category": "Alimentos preparados",
+      "kcal": 35
+    },
+    {
+      "food": "Salpicão, de frango",
+      "category": "Alimentos preparados",
+      "kcal": 148
+    },
+    {
+      "food": "Sarapatel",
+      "category": "Alimentos preparados",
+      "kcal": 123
+    },
+    {
+      "food": "Tabule",
+      "category": "Alimentos preparados",
+      "kcal": 57
+    },
+    {
+      "food": "Tacacá",
+      "category": "Alimentos preparados",
+      "kcal": 47
+    },
+    {
+      "food": "Tapioca, com manteiga",
+      "category": "Alimentos preparados",
+      "kcal": 348
+    },
+    {
+      "food": "Tucupi, com pimenta-de-cheiro",
+      "category": "Alimentos preparados",
+      "kcal": 27
+    },
+    {
+      "food": "Vaca atolada",
+      "category": "Alimentos preparados",
+      "kcal": 145
+    },
+    {
+      "food": "Vatapá",
+      "category": "Alimentos preparados",
+      "kcal": 255
+    },
+    {
+      "food": "Virado à paulista",
+      "category": "Alimentos preparados",
+      "kcal": 307
+    },
+    {
+      "food": "Yakisoba",
+      "category": "Alimentos preparados",
+      "kcal": 113
+    },
+    {
+      "food": "Bebida isotônica, sabores variados",
+      "category": "Bebidas",
+      "kcal": 26
+    },
+    {
+      "food": "Café, infusão 10%",
+      "category": "Bebidas",
+      "kcal": 9
+    },
+    {
+      "food": "Cana, aguardente 1",
+      "category": "Bebidas",
+      "kcal": 216
+    },
+    {
+      "food": "Cana, caldo de",
+      "category": "Bebidas",
+      "kcal": 65
+    },
+    {
+      "food": "Cerveja, pilsen 2",
+      "category": "Bebidas",
+      "kcal": 41
+    },
+    {
+      "food": "Chá, erva-doce, infusão 5%",
+      "category": "Bebidas",
+      "kcal": 1
+    },
+    {
+      "food": "Chá, mate, infusão 5%",
+      "category": "Bebidas",
+      "kcal": 3
+    },
+    {
+      "food": "Chá, preto, infusão 5%",
+      "category": "Bebidas",
+      "kcal": 2
+    },
+    {
+      "food": "Coco, água de",
+      "category": "Bebidas",
+      "kcal": 22
+    },
+    {
+      "food": "Refrigerante, tipo água tônica",
+      "category": "Bebidas",
+      "kcal": 31
+    },
+    {
+      "food": "Refrigerante, tipo cola",
+      "category": "Bebidas",
+      "kcal": 34
+    },
+    {
+      "food": "Refrigerante, tipo guaraná",
+      "category": "Bebidas",
+      "kcal": 39
+    },
+    {
+      "food": "Refrigerante, tipo laranja",
+      "category": "Bebidas",
+      "kcal": 46
+    },
+    {
+      "food": "Refrigerante, tipo limão",
+      "category": "Bebidas",
+      "kcal": 40
+    },
+    {
+      "food": "Apresuntado",
+      "category": "Carnes e derivados",
+      "kcal": 129
+    },
+    {
+      "food": "Caldo de carne, tablete",
+      "category": "Carnes e derivados",
+      "kcal": 241
+    },
+    {
+      "food": "Caldo de galinha, tablete",
+      "category": "Carnes e derivados",
+      "kcal": 251
+    },
+    {
+      "food": "Carne, bovina, acém, moído, cozido",
+      "category": "Carnes e derivados",
+      "kcal": 212
+    },
+    {
+      "food": "Carne, bovina, acém, moído, cru",
+      "category": "Carnes e derivados",
+      "kcal": 137
+    },
+    {
+      "food": "Carne, bovina, acém, sem gordura, cozido",
+      "category": "Carnes e derivados",
+      "kcal": 215
+    },
+    {
+      "food": "Carne, bovina, acém, sem gordura, cru",
+      "category": "Carnes e derivados",
+      "kcal": 144
+    },
+    {
+      "food": "Carne, bovina, almôndegas, cruas",
+      "category": "Carnes e derivados",
+      "kcal": 189
+    },
+    {
+      "food": "Carne, bovina, almôndegas, fritas",
+      "category": "Carnes e derivados",
+      "kcal": 272
+    },
+    {
+      "food": "Carne, bovina, bucho, cozido",
+      "category": "Carnes e derivados",
+      "kcal": 133
+    },
+    {
+      "food": "Carne, bovina, bucho, cru",
+      "category": "Carnes e derivados",
+      "kcal": 137
+    },
+    {
+      "food": "Carne, bovina, capa de contra-filé, com gordura, crua",
+      "category": "Carnes e derivados",
+      "kcal": 217
+    },
+    {
+      "food": "Carne, bovina, capa de contra-filé, com gordura, grelhada",
+      "category": "Carnes e derivados",
+      "kcal": 312
+    },
+    {
+      "food": "Carne, bovina, capa de contra-filé, sem gordura, crua",
+      "category": "Carnes e derivados",
+      "kcal": 131
+    },
+    {
+      "food": "Carne, bovina, capa de contra-filé, sem gordura, grelhada",
+      "category": "Carnes e derivados",
+      "kcal": 239
+    },
+    {
+      "food": "Carne, bovina, charque, cozido",
+      "category": "Carnes e derivados",
+      "kcal": 263
+    },
+    {
+      "food": "Carne, bovina, charque, cru",
+      "category": "Carnes e derivados",
+      "kcal": 249
+    },
+    {
+      "food": "Carne, bovina, contra-filé de costela, cru",
+      "category": "Carnes e derivados",
+      "kcal": 202
+    },
+    {
+      "food": "Carne, bovina, contra-filé de costela, grelhado",
+      "category": "Carnes e derivados",
+      "kcal": 275
+    },
+    {
+      "food": "Carne, bovina, contra-filé, à milanesa",
+      "category": "Carnes e derivados",
+      "kcal": 352
+    },
+    {
+      "food": "Carne, bovina, contra-filé, com gordura, cru",
+      "category": "Carnes e derivados",
+      "kcal": 206
+    },
+    {
+      "food": "Carne, bovina, contra-filé, com gordura, grelhado",
+      "category": "Carnes e derivados",
+      "kcal": 278
+    },
+    {
+      "food": "Carne, bovina, contra-filé, sem gordura, cru",
+      "category": "Carnes e derivados",
+      "kcal": 157
+    },
+    {
+      "food": "Carne, bovina, contra-filé, sem gordura, grelhado",
+      "category": "Carnes e derivados",
+      "kcal": 194
+    },
+    {
+      "food": "Carne, bovina, costela, assada",
+      "category": "Carnes e derivados",
+      "kcal": 373
+    },
+    {
+      "food": "Carne, bovina, costela, crua",
+      "category": "Carnes e derivados",
+      "kcal": 358
+    },
+    {
+      "food": "Carne, bovina, coxão duro, sem gordura, cozido",
+      "category": "Carnes e derivados",
+      "kcal": 217
+    },
+    {
+      "food": "Carne, bovina, coxão duro, sem gordura, cru",
+      "category": "Carnes e derivados",
+      "kcal": 148
+    },
+    {
+      "food": "Carne, bovina, coxão mole, sem gordura, cozido",
+      "category": "Carnes e derivados",
+      "kcal": 219
+    },
+    {
+      "food": "Carne, bovina, coxão mole, sem gordura, cru",
+      "category": "Carnes e derivados",
+      "kcal": 169
+    },
+    {
+      "food": "Carne, bovina, cupim, assado",
+      "category": "Carnes e derivados",
+      "kcal": 330
+    },
+    {
+      "food": "Carne, bovina, cupim, cru",
+      "category": "Carnes e derivados",
+      "kcal": 221
+    },
+    {
+      "food": "Carne, bovina, fígado, cru",
+      "category": "Carnes e derivados",
+      "kcal": 141
+    },
+    {
+      "food": "Carne, bovina, fígado, grelhado",
+      "category": "Carnes e derivados",
+      "kcal": 225
+    },
+    {
+      "food": "Carne, bovina, filé mingnon, sem gordura, cru",
+      "category": "Carnes e derivados",
+      "kcal": 143
+    },
+    {
+      "food": "Carne, bovina, filé mingnon, sem gordura, grelhado",
+      "category": "Carnes e derivados",
+      "kcal": 220
+    },
+    {
+      "food": "Carne, bovina, flanco, sem gordura, cozido",
+      "category": "Carnes e derivados",
+      "kcal": 196
+    },
+    {
+      "food": "Carne, bovina, flanco, sem gordura, cru",
+      "category": "Carnes e derivados",
+      "kcal": 141
+    },
+    {
+      "food": "Carne, bovina, fraldinha, com gordura, cozida",
+      "category": "Carnes e derivados",
+      "kcal": 338
+    },
+    {
+      "food": "Carne, bovina, fraldinha, com gordura, crua",
+      "category": "Carnes e derivados",
+      "kcal": 221
+    },
+    {
+      "food": "Carne, bovina, lagarto, cozido",
+      "category": "Carnes e derivados",
+      "kcal": 222
+    },
+    {
+      "food": "Carne, bovina, lagarto, cru",
+      "category": "Carnes e derivados",
+      "kcal": 135
+    },
+    {
+      "food": "Carne, bovina, língua, cozida",
+      "category": "Carnes e derivados",
+      "kcal": 315
+    },
+    {
+      "food": "Carne, bovina, língua, crua",
+      "category": "Carnes e derivados",
+      "kcal": 215
+    },
+    {
+      "food": "Carne, bovina, maminha, crua",
+      "category": "Carnes e derivados",
+      "kcal": 153
+    },
+    {
+      "food": "Carne, bovina, maminha, grelhada",
+      "category": "Carnes e derivados",
+      "kcal": 153
+    },
+    {
+      "food": "Carne, bovina, miolo de alcatra, sem gordura, cru",
+      "category": "Carnes e derivados",
+      "kcal": 163
+    },
+    {
+      "food": "Carne, bovina, miolo de alcatra, sem gordura, grelhado",
+      "category": "Carnes e derivados",
+      "kcal": 241
+    },
+    {
+      "food": "Carne, bovina, músculo, sem gordura, cozido",
+      "category": "Carnes e derivados",
+      "kcal": 194
+    },
+    {
+      "food": "Carne, bovina, músculo, sem gordura, cru",
+      "category": "Carnes e derivados",
+      "kcal": 142
+    },
+    {
+      "food": "Carne, bovina, paleta, com gordura, crua",
+      "category": "Carnes e derivados",
+      "kcal": 159
+    },
+    {
+      "food": "Carne, bovina, paleta, sem gordura, cozida",
+      "category": "Carnes e derivados",
+      "kcal": 194
+    },
+    {
+      "food": "Carne, bovina, paleta, sem gordura, crua",
+      "category": "Carnes e derivados",
+      "kcal": 141
+    },
+    {
+      "food": "Carne, bovina, patinho, sem gordura, cru",
+      "category": "Carnes e derivados",
+      "kcal": 133
+    },
+    {
+      "food": "Carne, bovina, patinho, sem gordura, grelhado",
+      "category": "Carnes e derivados",
+      "kcal": 219
+    },
+    {
+      "food": "Carne, bovina, peito, sem gordura, cozido",
+      "category": "Carnes e derivados",
+      "kcal": 338
+    },
+    {
+      "food": "Carne, bovina, peito, sem gordura, cru",
+      "category": "Carnes e derivados",
+      "kcal": 259
+    },
+    {
+      "food": "Carne, bovina, picanha, com gordura, crua",
+      "category": "Carnes e derivados",
+      "kcal": 213
+    },
+    {
+      "food": "Carne, bovina, picanha, com gordura, grelhada",
+      "category": "Carnes e derivados",
+      "kcal": 289
+    },
+    {
+      "food": "Carne, bovina, picanha, sem gordura, crua",
+      "category": "Carnes e derivados",
+      "kcal": 134
+    },
+    {
+      "food": "Carne, bovina, picanha, sem gordura, grelhada",
+      "category": "Carnes e derivados",
+      "kcal": 238
+    },
+    {
+      "food": "Carne, bovina, seca, cozida",
+      "category": "Carnes e derivados",
+      "kcal": 313
+    },
+    {
+      "food": "Carne, bovina, seca, crua",
+      "category": "Carnes e derivados",
+      "kcal": 313
+    },
+    {
+      "food": "Coxinha de frango, frita",
+      "category": "Carnes e derivados",
+      "kcal": 283
+    },
+    {
+      "food": "Croquete, de carne, cru",
+      "category": "Carnes e derivados",
+      "kcal": 246
+    },
+    {
+      "food": "Croquete, de carne, frito",
+      "category": "Carnes e derivados",
+      "kcal": 347
+    },
+    {
+      "food": "Empada de frango, pré-cozida, assada",
+      "category": "Carnes e derivados",
+      "kcal": 358
+    },
+    {
+      "food": "Empada, de frango, pré-cozida",
+      "category": "Carnes e derivados",
+      "kcal": 377
+    },
+    {
+      "food": "Frango, asa, com pele, crua",
+      "category": "Carnes e derivados",
+      "kcal": 213
+    },
+    {
+      "food": "Frango, caipira, inteiro, com pele, cozido",
+      "category": "Carnes e derivados",
+      "kcal": 243
+    },
+    {
+      "food": "Frango, caipira, inteiro, sem pele, cozido",
+      "category": "Carnes e derivados",
+      "kcal": 196
+    },
+    {
+      "food": "Frango, coração, cru",
+      "category": "Carnes e derivados",
+      "kcal": 222
+    },
+    {
+      "food": "Frango, coração, grelhado",
+      "category": "Carnes e derivados",
+      "kcal": 207
+    },
+    {
+      "food": "Frango, coxa, com pele, assada",
+      "category": "Carnes e derivados",
+      "kcal": 215
+    },
+    {
+      "food": "Frango, coxa, com pele, crua",
+      "category": "Carnes e derivados",
+      "kcal": 161
+    },
+    {
+      "food": "Frango, coxa, sem pele, cozida",
+      "category": "Carnes e derivados",
+      "kcal": 167
+    },
+    {
+      "food": "Frango, coxa, sem pele, crua",
+      "category": "Carnes e derivados",
+      "kcal": 120
+    },
+    {
+      "food": "Frango, fígado, cru",
+      "category": "Carnes e derivados",
+      "kcal": 106
+    },
+    {
+      "food": "Frango, filé, à milanesa",
+      "category": "Carnes e derivados",
+      "kcal": 221
+    },
+    {
+      "food": "Frango, inteiro, com pele, cru",
+      "category": "Carnes e derivados",
+      "kcal": 226
+    },
+    {
+      "food": "Frango, inteiro, sem pele, assado",
+      "category": "Carnes e derivados",
+      "kcal": 187
+    },
+    {
+      "food": "Frango, inteiro, sem pele, cozido",
+      "category": "Carnes e derivados",
+      "kcal": 170
+    },
+    {
+      "food": "Frango, inteiro, sem pele, cru",
+      "category": "Carnes e derivados",
+      "kcal": 129
+    },
+    {
+      "food": "Frango, peito, com pele, assado",
+      "category": "Carnes e derivados",
+      "kcal": 212
+    },
+    {
+      "food": "Frango, peito, com pele, cru",
+      "category": "Carnes e derivados",
+      "kcal": 149
+    },
+    {
+      "food": "Frango, peito, sem pele, cozido",
+      "category": "Carnes e derivados",
+      "kcal": 163
+    },
+    {
+      "food": "Frango, peito, sem pele, cru",
+      "category": "Carnes e derivados",
+      "kcal": 119
+    },
+    {
+      "food": "Frango, peito, sem pele, grelhado",
+      "category": "Carnes e derivados",
+      "kcal": 159
+    },
+    {
+      "food": "Frango, sobrecoxa, com pele, assada",
+      "category": "Carnes e derivados",
+      "kcal": 260
+    },
+    {
+      "food": "Frango, sobrecoxa, com pele, crua",
+      "category": "Carnes e derivados",
+      "kcal": 255
+    },
+    {
+      "food": "Frango, sobrecoxa, sem pele, assada",
+      "category": "Carnes e derivados",
+      "kcal": 233
+    },
+    {
+      "food": "Frango, sobrecoxa, sem pele, crua",
+      "category": "Carnes e derivados",
+      "kcal": 162
+    },
+    {
+      "food": "Hambúrguer bovinano, cru",
+      "category": "Carnes e derivados",
+      "kcal": 215
+    },
+    {
+      "food": "Hambúrguer bovinano, frito",
+      "category": "Carnes e derivados",
+      "kcal": 258
+    },
+    {
+      "food": "Hambúrguer bovinano, grelhado",
+      "category": "Carnes e derivados",
+      "kcal": 210
+    },
+    {
+      "food": "Lingüiça, frango, crua",
+      "category": "Carnes e derivados",
+      "kcal": 218
+    },
+    {
+      "food": "Lingüiça, frango, frita",
+      "category": "Carnes e derivados",
+      "kcal": 245
+    },
+    {
+      "food": "Lingüiça, frango, grelhada",
+      "category": "Carnes e derivados",
+      "kcal": 244
+    },
+    {
+      "food": "Lingüiça, porco, crua",
+      "category": "Carnes e derivados",
+      "kcal": 227
+    },
+    {
+      "food": "Lingüiça, porco, frita",
+      "category": "Carnes e derivados",
+      "kcal": 280
+    },
+    {
+      "food": "Lingüiça, porco, grelhada",
+      "category": "Carnes e derivados",
+      "kcal": 296
+    },
+    {
+      "food": "Mortadela",
+      "category": "Carnes e derivados",
+      "kcal": 269
+    },
+    {
+      "food": "Peru, congelado, assado",
+      "category": "Carnes e derivados",
+      "kcal": 163
+    },
+    {
+      "food": "Peru, congelado, cru",
+      "category": "Carnes e derivados",
+      "kcal": 94
+    },
+    {
+      "food": "Porco, bisteca, crua",
+      "category": "Carnes e derivados",
+      "kcal": 164
+    },
+    {
+      "food": "Porco, bisteca, frita",
+      "category": "Carnes e derivados",
+      "kcal": 311
+    },
+    {
+      "food": "Porco, bisteca, grelhada",
+      "category": "Carnes e derivados",
+      "kcal": 280
+    },
+    {
+      "food": "Porco, costela, assada",
+      "category": "Carnes e derivados",
+      "kcal": 402
+    },
+    {
+      "food": "Porco, costela, crua",
+      "category": "Carnes e derivados",
+      "kcal": 256
+    },
+    {
+      "food": "Porco, lombo, assado",
+      "category": "Carnes e derivados",
+      "kcal": 210
+    },
+    {
+      "food": "Porco, lombo, cru",
+      "category": "Carnes e derivados",
+      "kcal": 176
+    },
+    {
+      "food": "Porco, orelha, salgada, crua",
+      "category": "Carnes e derivados",
+      "kcal": 258
+    },
+    {
+      "food": "Porco, pernil, assado",
+      "category": "Carnes e derivados",
+      "kcal": 262
+    },
+    {
+      "food": "Porco, pernil, cru",
+      "category": "Carnes e derivados",
+      "kcal": 186
+    },
+    {
+      "food": "Porco, rabo, salgado, cru",
+      "category": "Carnes e derivados",
+      "kcal": 377
+    },
+    {
+      "food": "Presunto, com capa de gordura",
+      "category": "Carnes e derivados",
+      "kcal": 128
+    },
+    {
+      "food": "Presunto, sem capa de gordura",
+      "category": "Carnes e derivados",
+      "kcal": 94
+    },
+    {
+      "food": "Quibe, assado",
+      "category": "Carnes e derivados",
+      "kcal": 136
+    },
+    {
+      "food": "Quibe, cru",
+      "category": "Carnes e derivados",
+      "kcal": 109
+    },
+    {
+      "food": "Quibe, frito",
+      "category": "Carnes e derivados",
+      "kcal": 254
+    },
+    {
+      "food": "Salame",
+      "category": "Carnes e derivados",
+      "kcal": 398
+    },
+    {
+      "food": "Toucinho, cru",
+      "category": "Carnes e derivados",
+      "kcal": 593
+    },
+    {
+      "food": "Toucinho, frito",
+      "category": "Carnes e derivados",
+      "kcal": 697
+    },
+    {
+      "food": "Arroz, integral, cozido",
+      "category": "Cereais e derivados",
+      "kcal": 124
+    },
+    {
+      "food": "Arroz, integral, cru",
+      "category": "Cereais e derivados",
+      "kcal": 360
+    },
+    {
+      "food": "Arroz, tipo 1, cozido",
+      "category": "Cereais e derivados",
+      "kcal": 128
+    },
+    {
+      "food": "Arroz, tipo 1, cru",
+      "category": "Cereais e derivados",
+      "kcal": 358
+    },
+    {
+      "food": "Arroz, tipo 2, cozido",
+      "category": "Cereais e derivados",
+      "kcal": 130
+    },
+    {
+      "food": "Arroz, tipo 2, cru",
+      "category": "Cereais e derivados",
+      "kcal": 358
+    },
+    {
+      "food": "Aveia, flocos, crua",
+      "category": "Cereais e derivados",
+      "kcal": 394
+    },
+    {
+      "food": "Biscoito, doce, maise",
+      "category": "Cereais e derivados",
+      "kcal": 443
+    },
+    {
+      "food": "Biscoito, doce, recheado com chocolate",
+      "category": "Cereais e derivados",
+      "kcal": 472
+    },
+    {
+      "food": "Biscoito, doce, recheado com morango",
+      "category": "Cereais e derivados",
+      "kcal": 471
+    },
+    {
+      "food": "Biscoito, doce, wafer, recheado de chocolate",
+      "category": "Cereais e derivados",
+      "kcal": 502
+    },
+    {
+      "food": "Biscoito, doce, wafer, recheado de morango",
+      "category": "Cereais e derivados",
+      "kcal": 513
+    },
+    {
+      "food": "Biscoito, salgado, cream cracker",
+      "category": "Cereais e derivados",
+      "kcal": 432
+    },
+    {
+      "food": "Bolo, mistura para",
+      "category": "Cereais e derivados",
+      "kcal": 419
+    },
+    {
+      "food": "Bolo, pronto, aipim",
+      "category": "Cereais e derivados",
+      "kcal": 324
+    },
+    {
+      "food": "Bolo, pronto, chocolate",
+      "category": "Cereais e derivados",
+      "kcal": 410
+    },
+    {
+      "food": "Bolo, pronto, coco",
+      "category": "Cereais e derivados",
+      "kcal": 333
+    },
+    {
+      "food": "Bolo, pronto, milho",
+      "category": "Cereais e derivados",
+      "kcal": 311
+    },
+    {
+      "food": "Canjica, branca, crua",
+      "category": "Cereais e derivados",
+      "kcal": 358
+    },
+    {
+      "food": "Canjica, com leite integral",
+      "category": "Cereais e derivados",
+      "kcal": 112
+    },
+    {
+      "food": "Cereais, milho, flocos, com sal",
+      "category": "Cereais e derivados",
+      "kcal": 370
+    },
+    {
+      "food": "Cereais, milho, flocos, sem sal",
+      "category": "Cereais e derivados",
+      "kcal": 363
+    },
+    {
+      "food": "Cereais, mingau, milho, infantil",
+      "category": "Cereais e derivados",
+      "kcal": 394
+    },
+    {
+      "food": "Cereais, mistura para vitami, trigo, cevada e aveia",
+      "category": "Cereais e derivados",
+      "kcal": 381
+    },
+    {
+      "food": "Cereal matinal, milho",
+      "category": "Cereais e derivados",
+      "kcal": 365
+    },
+    {
+      "food": "Cereal matinal, milho, açúcar",
+      "category": "Cereais e derivados",
+      "kcal": 377
+    },
+    {
+      "food": "Creme de arroz, pó",
+      "category": "Cereais e derivados",
+      "kcal": 386
+    },
+    {
+      "food": "Creme de milho, pó",
+      "category": "Cereais e derivados",
+      "kcal": 333
+    },
+    {
+      "food": "Curau, milho verde",
+      "category": "Cereais e derivados",
+      "kcal": 78
+    },
+    {
+      "food": "Curau, milho verde, mistura para",
+      "category": "Cereais e derivados",
+      "kcal": 402
+    },
+    {
+      "food": "Farinha, de arroz, enriquecida",
+      "category": "Cereais e derivados",
+      "kcal": 363
+    },
+    {
+      "food": "Farinha, de centeio, integral",
+      "category": "Cereais e derivados",
+      "kcal": 336
+    },
+    {
+      "food": "Farinha, de milho, amarela",
+      "category": "Cereais e derivados",
+      "kcal": 351
+    },
+    {
+      "food": "Farinha, de rosca",
+      "category": "Cereais e derivados",
+      "kcal": 371
+    },
+    {
+      "food": "Farinha, de trigo",
+      "category": "Cereais e derivados",
+      "kcal": 360
+    },
+    {
+      "food": "Farinha, láctea, de cereais",
+      "category": "Cereais e derivados",
+      "kcal": 415
+    },
+    {
+      "food": "Lasanha, massa fresca, cozida",
+      "category": "Cereais e derivados",
+      "kcal": 164
+    },
+    {
+      "food": "Lasanha, massa fresca, crua",
+      "category": "Cereais e derivados",
+      "kcal": 220
+    },
+    {
+      "food": "Macarrão, instantâneo",
+      "category": "Cereais e derivados",
+      "kcal": 436
+    },
+    {
+      "food": "Macarrão, trigo, cru",
+      "category": "Cereais e derivados",
+      "kcal": 371
+    },
+    {
+      "food": "Macarrão, trigo, cru, com ovos",
+      "category": "Cereais e derivados",
+      "kcal": 371
+    },
+    {
+      "food": "Milho, amido, cru",
+      "category": "Cereais e derivados",
+      "kcal": 361
+    },
+    {
+      "food": "Milho, fubá, cru",
+      "category": "Cereais e derivados",
+      "kcal": 353
+    },
+    {
+      "food": "Milho, verde, cru",
+      "category": "Cereais e derivados",
+      "kcal": 138
+    },
+    {
+      "food": "Milho, verde, enlatado, dredo",
+      "category": "Cereais e derivados",
+      "kcal": 98
+    },
+    {
+      "food": "Mingau adiciol, pó",
+      "category": "Cereais e derivados",
+      "kcal": 373
+    },
+    {
+      "food": "Pamonha, barra para cozimento, pré-cozida",
+      "category": "Cereais e derivados",
+      "kcal": 171
+    },
+    {
+      "food": "Pão, aveia, forma",
+      "category": "Cereais e derivados",
+      "kcal": 343
+    },
+    {
+      "food": "Pão, de soja",
+      "category": "Cereais e derivados",
+      "kcal": 309
+    },
+    {
+      "food": "Pão, glúten, forma",
+      "category": "Cereais e derivados",
+      "kcal": 253
+    },
+    {
+      "food": "Pão, milho, forma",
+      "category": "Cereais e derivados",
+      "kcal": 292
+    },
+    {
+      "food": "Pão, trigo, forma, integral",
+      "category": "Cereais e derivados",
+      "kcal": 253
+    },
+    {
+      "food": "Pão, trigo, francês",
+      "category": "Cereais e derivados",
+      "kcal": 300
+    },
+    {
+      "food": "Pão, trigo, sovado",
+      "category": "Cereais e derivados",
+      "kcal": 311
+    },
+    {
+      "food": "Pastel, de carne, cru",
+      "category": "Cereais e derivados",
+      "kcal": 289
+    },
+    {
+      "food": "Pastel, de carne, frito",
+      "category": "Cereais e derivados",
+      "kcal": 388
+    },
+    {
+      "food": "Pastel, de queijo, cru",
+      "category": "Cereais e derivados",
+      "kcal": 308
+    },
+    {
+      "food": "Pastel, de queijo, frito",
+      "category": "Cereais e derivados",
+      "kcal": 422
+    },
+    {
+      "food": "Pastel, massa, crua",
+      "category": "Cereais e derivados",
+      "kcal": 310
+    },
+    {
+      "food": "Pastel, massa, frita",
+      "category": "Cereais e derivados",
+      "kcal": 570
+    },
+    {
+      "food": "Pipoca, com óleo de soja, sem sal",
+      "category": "Cereais e derivados",
+      "kcal": 448
+    },
+    {
+      "food": "Polenta, pré-cozida",
+      "category": "Cereais e derivados",
+      "kcal": 103
+    },
+    {
+      "food": "Torrada, pão francês",
+      "category": "Cereais e derivados",
+      "kcal": 377
+    },
+    {
+      "food": "Mamão verde, doce em calda, dredo",
+      "category": "Frutas e derivados",
+      "kcal": 209
+    },
+    {
+      "food": "Mamão, doce em calda, dredo",
+      "category": "Frutas e derivados",
+      "kcal": 196
+    },
+    {
+      "food": "Abacate, cru",
+      "category": "Frutas e derivados",
+      "kcal": 96
+    },
+    {
+      "food": "Abacaxi, cru",
+      "category": "Frutas e derivados",
+      "kcal": 48
+    },
+    {
+      "food": "Abacaxi, polpa, congelada",
+      "category": "Frutas e derivados",
+      "kcal": 31
+    },
+    {
+      "food": "Abiu, cru",
+      "category": "Frutas e derivados",
+      "kcal": 62
+    },
+    {
+      "food": "Açaí, polpa, com xarope de guaraná e glucose",
+      "category": "Frutas e derivados",
+      "kcal": 110
+    },
+    {
+      "food": "Açaí, polpa, congelada",
+      "category": "Frutas e derivados",
+      "kcal": 58
+    },
+    {
+      "food": "Acerola, crua",
+      "category": "Frutas e derivados",
+      "kcal": 33
+    },
+    {
+      "food": "Acerola, polpa, congelada",
+      "category": "Frutas e derivados",
+      "kcal": 22
+    },
+    {
+      "food": "Ameixa, calda, enlatada",
+      "category": "Frutas e derivados",
+      "kcal": 183
+    },
+    {
+      "food": "Ameixa, crua",
+      "category": "Frutas e derivados",
+      "kcal": 53
+    },
+    {
+      "food": "Ameixa, em calda, enlatada, dreda",
+      "category": "Frutas e derivados",
+      "kcal": 177
+    },
+    {
+      "food": "Atemóia, crua",
+      "category": "Frutas e derivados",
+      "kcal": 97
+    },
+    {
+      "food": "Azeite, de dendê",
+      "category": "Frutas e derivados",
+      "kcal": 884
+    },
+    {
+      "food": "Azeite, de oliva, exa virgem",
+      "category": "Frutas e derivados",
+      "kcal": 884
+    },
+    {
+      "food": "Banana, da terra, crua",
+      "category": "Frutas e derivados",
+      "kcal": 128
+    },
+    {
+      "food": "Banana, doce em barra",
+      "category": "Frutas e derivados",
+      "kcal": 280
+    },
+    {
+      "food": "Banana, figo, crua",
+      "category": "Frutas e derivados",
+      "kcal": 105
+    },
+    {
+      "food": "Banana, maçã, crua",
+      "category": "Frutas e derivados",
+      "kcal": 87
+    },
+    {
+      "food": "Banana, nanica, crua",
+      "category": "Frutas e derivados",
+      "kcal": 92
+    },
+    {
+      "food": "Banana, ouro, crua",
+      "category": "Frutas e derivados",
+      "kcal": 112
+    },
+    {
+      "food": "Banana, pacova, crua",
+      "category": "Frutas e derivados",
+      "kcal": 78
+    },
+    {
+      "food": "Banana, prata, crua",
+      "category": "Frutas e derivados",
+      "kcal": 98
+    },
+    {
+      "food": "Cacau, cru",
+      "category": "Frutas e derivados",
+      "kcal": 74
+    },
+    {
+      "food": "Cajá, polpa, congelada",
+      "category": "Frutas e derivados",
+      "kcal": 26
+    },
+    {
+      "food": "Cajá-Manga, cru",
+      "category": "Frutas e derivados",
+      "kcal": 46
+    },
+    {
+      "food": "Caju, cru",
+      "category": "Frutas e derivados",
+      "kcal": 43
+    },
+    {
+      "food": "Caju, polpa, congelada",
+      "category": "Frutas e derivados",
+      "kcal": 37
+    },
+    {
+      "food": "Caju, suco concenado, envasado",
+      "category": "Frutas e derivados",
+      "kcal": 45
+    },
+    {
+      "food": "Caqui, chocolate, cru",
+      "category": "Frutas e derivados",
+      "kcal": 71
+    },
+    {
+      "food": "Carambola, crua",
+      "category": "Frutas e derivados",
+      "kcal": 46
+    },
+    {
+      "food": "Ciriguela, crua",
+      "category": "Frutas e derivados",
+      "kcal": 76
+    },
+    {
+      "food": "Cupuaçu, cru",
+      "category": "Frutas e derivados",
+      "kcal": 49
+    },
+    {
+      "food": "Cupuaçu, polpa, congelada",
+      "category": "Frutas e derivados",
+      "kcal": 49
+    },
+    {
+      "food": "Figo, cru",
+      "category": "Frutas e derivados",
+      "kcal": 41
+    },
+    {
+      "food": "Figo, enlatado, em calda",
+      "category": "Frutas e derivados",
+      "kcal": 184
+    },
+    {
+      "food": "Fruta-pão, crua",
+      "category": "Frutas e derivados",
+      "kcal": 67
+    },
+    {
+      "food": "Goiaba, branca, com casca, crua",
+      "category": "Frutas e derivados",
+      "kcal": 52
+    },
+    {
+      "food": "Goiaba, doce em pasta",
+      "category": "Frutas e derivados",
+      "kcal": 269
+    },
+    {
+      "food": "Goiaba, doce, cascão",
+      "category": "Frutas e derivados",
+      "kcal": 286
+    },
+    {
+      "food": "Goiaba, vermelha, com casca, crua",
+      "category": "Frutas e derivados",
+      "kcal": 54
+    },
+    {
+      "food": "Graviola, crua",
+      "category": "Frutas e derivados",
+      "kcal": 62
+    },
+    {
+      "food": "Graviola, polpa, congelada",
+      "category": "Frutas e derivados",
+      "kcal": 38
+    },
+    {
+      "food": "Jabuticaba, crua",
+      "category": "Frutas e derivados",
+      "kcal": 58
+    },
+    {
+      "food": "Jaca, crua",
+      "category": "Frutas e derivados",
+      "kcal": 88
+    },
+    {
+      "food": "Jambo, cru",
+      "category": "Frutas e derivados",
+      "kcal": 27
+    },
+    {
+      "food": "Jamelão, cru",
+      "category": "Frutas e derivados",
+      "kcal": 41
+    },
+    {
+      "food": "Kiwi, cru",
+      "category": "Frutas e derivados",
+      "kcal": 51
+    },
+    {
+      "food": "Laranja, baía, crua",
+      "category": "Frutas e derivados",
+      "kcal": 45
+    },
+    {
+      "food": "Laranja, baía, suco",
+      "category": "Frutas e derivados",
+      "kcal": 37
+    },
+    {
+      "food": "Laranja, da terra, crua",
+      "category": "Frutas e derivados",
+      "kcal": 51
+    },
+    {
+      "food": "Laranja, da terra, suco",
+      "category": "Frutas e derivados",
+      "kcal": 41
+    },
+    {
+      "food": "Laranja, lima, crua",
+      "category": "Frutas e derivados",
+      "kcal": 46
+    },
+    {
+      "food": "Laranja, lima, suco",
+      "category": "Frutas e derivados",
+      "kcal": 39
+    },
+    {
+      "food": "Laranja, pêra, crua",
+      "category": "Frutas e derivados",
+      "kcal": 37
+    },
+    {
+      "food": "Laranja, pêra, suco",
+      "category": "Frutas e derivados",
+      "kcal": 33
+    },
+    {
+      "food": "Laranja, valência, crua",
+      "category": "Frutas e derivados",
+      "kcal": 46
+    },
+    {
+      "food": "Laranja, valência, suco",
+      "category": "Frutas e derivados",
+      "kcal": 36
+    },
+    {
+      "food": "Limão, cravo, suco",
+      "category": "Frutas e derivados",
+      "kcal": 14
+    },
+    {
+      "food": "Limão, galego, suco",
+      "category": "Frutas e derivados",
+      "kcal": 22
+    },
+    {
+      "food": "Limão, tahiti, cru",
+      "category": "Frutas e derivados",
+      "kcal": 32
+    },
+    {
+      "food": "Maçã, Argentina, com casca, crua",
+      "category": "Frutas e derivados",
+      "kcal": 63
+    },
+    {
+      "food": "Maçã, Fuji, com casca, crua",
+      "category": "Frutas e derivados",
+      "kcal": 56
+    },
+    {
+      "food": "Macaúba, crua",
+      "category": "Frutas e derivados",
+      "kcal": 404
+    },
+    {
+      "food": "Mamão, Formosa, cru",
+      "category": "Frutas e derivados",
+      "kcal": 45
+    },
+    {
+      "food": "Mamão, Papaia, cru",
+      "category": "Frutas e derivados",
+      "kcal": 40
+    },
+    {
+      "food": "Manga, Haden, crua",
+      "category": "Frutas e derivados",
+      "kcal": 64
+    },
+    {
+      "food": "Manga, Palmer, crua",
+      "category": "Frutas e derivados",
+      "kcal": 72
+    },
+    {
+      "food": "Manga, polpa, congelada",
+      "category": "Frutas e derivados",
+      "kcal": 48
+    },
+    {
+      "food": "Manga, Tommy Atkins, crua",
+      "category": "Frutas e derivados",
+      "kcal": 51
+    },
+    {
+      "food": "Manteiga, com sal",
+      "category": "Frutas e derivados",
+      "kcal": 726
+    },
+    {
+      "food": "Manteiga, sem sal",
+      "category": "Frutas e derivados",
+      "kcal": 758
+    },
+    {
+      "food": "Maracujá, cru",
+      "category": "Frutas e derivados",
+      "kcal": 68
+    },
+    {
+      "food": "Maracujá, polpa, congelada",
+      "category": "Frutas e derivados",
+      "kcal": 39
+    },
+    {
+      "food": "Maracujá, suco concenado, envasado",
+      "category": "Frutas e derivados",
+      "kcal": 42
+    },
+    {
+      "food": "Margarina, com óleo hidrogedo, com sal (65% de lipídeos)",
+      "category": "Frutas e derivados",
+      "kcal": 596
+    },
+    {
+      "food": "Margarina, com óleo hidrogedo, sem sal (80% de lipídeos)",
+      "category": "Frutas e derivados",
+      "kcal": 723
+    },
+    {
+      "food": "Margarina, com óleo interesterificado, com sal (65%de lipídeos)",
+      "category": "Frutas e derivados",
+      "kcal": 594
+    },
+    {
+      "food": "Margarina, com óleo interesterificado, sem sal (65% de lipídeos)",
+      "category": "Frutas e derivados",
+      "kcal": 593
+    },
+    {
+      "food": "Melancia, crua",
+      "category": "Frutas e derivados",
+      "kcal": 33
+    },
+    {
+      "food": "Melão, cru",
+      "category": "Frutas e derivados",
+      "kcal": 29
+    },
+    {
+      "food": "Mexerica, Murcote, crua",
+      "category": "Frutas e derivados",
+      "kcal": 58
+    },
+    {
+      "food": "Mexerica, Rio, crua",
+      "category": "Frutas e derivados",
+      "kcal": 37
+    },
+    {
+      "food": "Morango, cru",
+      "category": "Frutas e derivados",
+      "kcal": 30
+    },
+    {
+      "food": "Nêspera, crua",
+      "category": "Frutas e derivados",
+      "kcal": 43
+    },
+    {
+      "food": "Óleo, de babaçu",
+      "category": "Frutas e derivados",
+      "kcal": 884
+    },
+    {
+      "food": "Óleo, de canola",
+      "category": "Frutas e derivados",
+      "kcal": 884
+    },
+    {
+      "food": "Óleo, de girassol",
+      "category": "Frutas e derivados",
+      "kcal": 884
+    },
+    {
+      "food": "Óleo, de milho",
+      "category": "Frutas e derivados",
+      "kcal": 884
+    },
+    {
+      "food": "Óleo, de pequi",
+      "category": "Frutas e derivados",
+      "kcal": 884
+    },
+    {
+      "food": "Óleo, de soja",
+      "category": "Frutas e derivados",
+      "kcal": 884
+    },
+    {
+      "food": "Pequi, cru",
+      "category": "Frutas e derivados",
+      "kcal": 205
+    },
+    {
+      "food": "Pêra, Park, crua",
+      "category": "Frutas e derivados",
+      "kcal": 61
+    },
+    {
+      "food": "Pêra, Williams, crua",
+      "category": "Frutas e derivados",
+      "kcal": 53
+    },
+    {
+      "food": "Pêssego, Aurora, cru",
+      "category": "Frutas e derivados",
+      "kcal": 36
+    },
+    {
+      "food": "Pêssego, enlatado, em calda",
+      "category": "Frutas e derivados",
+      "kcal": 63
+    },
+    {
+      "food": "Pinha, crua",
+      "category": "Frutas e derivados",
+      "kcal": 88
+    },
+    {
+      "food": "Pitanga, crua",
+      "category": "Frutas e derivados",
+      "kcal": 41
+    },
+    {
+      "food": "Pitanga, polpa, congelada",
+      "category": "Frutas e derivados",
+      "kcal": 19
+    },
+    {
+      "food": "Romã, crua",
+      "category": "Frutas e derivados",
+      "kcal": 56
+    },
+    {
+      "food": "Tamarindo, cru",
+      "category": "Frutas e derivados",
+      "kcal": 276
+    },
+    {
+      "food": "Tangeri, Poncã, crua",
+      "category": "Frutas e derivados",
+      "kcal": 38
+    },
+    {
+      "food": "Tangeri, Poncã, suco",
+      "category": "Frutas e derivados",
+      "kcal": 36
+    },
+    {
+      "food": "Tucumã, cru",
+      "category": "Frutas e derivados",
+      "kcal": 262
+    },
+    {
+      "food": "Umbu, cru",
+      "category": "Frutas e derivados",
+      "kcal": 37
+    },
+    {
+      "food": "Umbu, polpa, congelada",
+      "category": "Frutas e derivados",
+      "kcal": 34
+    },
+    {
+      "food": "Uva, Itália, crua",
+      "category": "Frutas e derivados",
+      "kcal": 53
+    },
+    {
+      "food": "Uva, Rubi, crua",
+      "category": "Frutas e derivados",
+      "kcal": 49
+    },
+    {
+      "food": "Uva, suco concenado, envasado",
+      "category": "Frutas e derivados",
+      "kcal": 58
+    },
+    {
+      "food": "Amendoim, grão, cru",
+      "category": "Leguminosas e derivados",
+      "kcal": 544
+    },
+    {
+      "food": "Amendoim, torrado, salgado",
+      "category": "Leguminosas e derivados",
+      "kcal": 606
+    },
+    {
+      "food": "Ervilha, em vagem",
+      "category": "Leguminosas e derivados",
+      "kcal": 88
+    },
+    {
+      "food": "Ervilha, enlatada, drenada",
+      "category": "Leguminosas e derivados",
+      "kcal": 74
+    },
+    {
+      "food": "Feijão, carioca, cozido",
+      "category": "Leguminosas e derivados",
+      "kcal": 76
+    },
+    {
+      "food": "Feijão, carioca, cru",
+      "category": "Leguminosas e derivados",
+      "kcal": 329
+    },
+    {
+      "food": "Feijão, fradinho, cozido",
+      "category": "Leguminosas e derivados",
+      "kcal": 78
+    },
+    {
+      "food": "Feijão, fradinho, cru",
+      "category": "Leguminosas e derivados",
+      "kcal": 339
+    },
+    {
+      "food": "Feijão, jalo, cozido",
+      "category": "Leguminosas e derivados",
+      "kcal": 93
+    },
+    {
+      "food": "Feijão, jalo, cru",
+      "category": "Leguminosas e derivados",
+      "kcal": 328
+    },
+    {
+      "food": "Feijão, preto, cozido",
+      "category": "Leguminosas e derivados",
+      "kcal": 77
+    },
+    {
+      "food": "Feijão, preto, cru",
+      "category": "Leguminosas e derivados",
+      "kcal": 324
+    },
+    {
+      "food": "Feijão, rajado, cozido",
+      "category": "Leguminosas e derivados",
+      "kcal": 85
+    },
+    {
+      "food": "Feijão, rajado, cru",
+      "category": "Leguminosas e derivados",
+      "kcal": 326
+    },
+    {
+      "food": "Feijão, rosinha, cozido",
+      "category": "Leguminosas e derivados",
+      "kcal": 68
+    },
+    {
+      "food": "Feijão, rosinha, cru",
+      "category": "Leguminosas e derivados",
+      "kcal": 337
+    },
+    {
+      "food": "Feijão, roxo, cozido",
+      "category": "Leguminosas e derivados",
+      "kcal": 77
+    },
+    {
+      "food": "Feijão, roxo, cru",
+      "category": "Leguminosas e derivados",
+      "kcal": 331
+    },
+    {
+      "food": "Grão-de-bico, cru",
+      "category": "Leguminosas e derivados",
+      "kcal": 355
+    },
+    {
+      "food": "Guandu, cru",
+      "category": "Leguminosas e derivados",
+      "kcal": 344
+    },
+    {
+      "food": "Lentilha, cozida",
+      "category": "Leguminosas e derivados",
+      "kcal": 93
+    },
+    {
+      "food": "Lentilha, crua",
+      "category": "Leguminosas e derivados",
+      "kcal": 339
+    },
+    {
+      "food": "Paçoca, amendoim",
+      "category": "Leguminosas e derivados",
+      "kcal": 487
+    },
+    {
+      "food": "Pé-de-moleque, amendoim",
+      "category": "Leguminosas e derivados",
+      "kcal": 503
+    },
+    {
+      "food": "Soja, exato solúvel, pó",
+      "category": "Leguminosas e derivados",
+      "kcal": 459
+    },
+    {
+      "food": "Soja, exato solúvel, tural, fluido",
+      "category": "Leguminosas e derivados",
+      "kcal": 39
+    },
+    {
+      "food": "Soja, farinha",
+      "category": "Leguminosas e derivados",
+      "kcal": 404
+    },
+    {
+      "food": "Soja, queijo (tofu)",
+      "category": "Leguminosas e derivados",
+      "kcal": 64
+    },
+    {
+      "food": "Tremoço, cru",
+      "category": "Leguminosas e derivados",
+      "kcal": 381
+    },
+    {
+      "food": "Tremoço, em conserva",
+      "category": "Leguminosas e derivados",
+      "kcal": 121
+    },
+    {
+      "food": "Bebida láctea, pêssego",
+      "category": "Leite e derivados",
+      "kcal": 55
+    },
+    {
+      "food": "Creme de Leite",
+      "category": "Leite e derivados",
+      "kcal": 221
+    },
+    {
+      "food": "Iogurte, natural",
+      "category": "Leite e derivados",
+      "kcal": 51
+    },
+    {
+      "food": "Iogurte, natural, desnatado",
+      "category": "Leite e derivados",
+      "kcal": 41
+    },
+    {
+      "food": "Iogurte, sabor abacaxi",
+      "category": "Leite e derivados",
+      "kcal": "*"
+    },
+    {
+      "food": "Iogurte, sabor morango",
+      "category": "Leite e derivados",
+      "kcal": 70
+    },
+    {
+      "food": "Iogurte, sabor pêssego",
+      "category": "Leite e derivados",
+      "kcal": 68
+    },
+    {
+      "food": "Leite, condensado",
+      "category": "Leite e derivados",
+      "kcal": 313
+    },
+    {
+      "food": "Leite, de cabra",
+      "category": "Leite e derivados",
+      "kcal": 66
+    },
+    {
+      "food": "Leite, de vaca, achocolatado",
+      "category": "Leite e derivados",
+      "kcal": 83
+    },
+    {
+      "food": "Leite, de vaca, desnatado, pó",
+      "category": "Leite e derivados",
+      "kcal": 362
+    },
+    {
+      "food": "Leite, de vaca, desnatado, UHT",
+      "category": "Leite e derivados",
+      "kcal": "*"
+    },
+    {
+      "food": "Leite, de vaca, integral",
+      "category": "Leite e derivados",
+      "kcal": "*"
+    },
+    {
+      "food": "Leite, de vaca, integral, pó",
+      "category": "Leite e derivados",
+      "kcal": 497
+    },
+    {
+      "food": "Leite, fermentado",
+      "category": "Leite e derivados",
+      "kcal": 70
+    },
+    {
+      "food": "Queijo, minas, frescal",
+      "category": "Leite e derivados",
+      "kcal": 264
+    },
+    {
+      "food": "Queijo, minas, meia cura",
+      "category": "Leite e derivados",
+      "kcal": 321
+    },
+    {
+      "food": "Queijo, mozarela",
+      "category": "Leite e derivados",
+      "kcal": 330
+    },
+    {
+      "food": "Queijo, parmesão",
+      "category": "Leite e derivados",
+      "kcal": 453
+    },
+    {
+      "food": "Queijo, pasteurizado",
+      "category": "Leite e derivados",
+      "kcal": 303
+    },
+    {
+      "food": "Queijo, petit suisse, morango",
+      "category": "Leite e derivados",
+      "kcal": 121
+    },
+    {
+      "food": "Queijo, prato",
+      "category": "Leite e derivados",
+      "kcal": 360
+    },
+    {
+      "food": "Queijo, requeijão, cremoso",
+      "category": "Leite e derivados",
+      "kcal": 257
+    },
+    {
+      "food": "Queijo, ricota",
+      "category": "Leite e derivados",
+      "kcal": 140
+    },
+    {
+      "food": "Café, pó, torrado",
+      "category": "Miscelâneas",
+      "kcal": 419
+    },
+    {
+      "food": "Capuccino, pó",
+      "category": "Miscelâneas",
+      "kcal": 417
+    },
+    {
+      "food": "Fermento em pó, químico",
+      "category": "Miscelâneas",
+      "kcal": 90
+    },
+    {
+      "food": "Fermento, biológico, levedura, tablete",
+      "category": "Miscelâneas",
+      "kcal": 90
+    },
+    {
+      "food": "Gelati, sabores variados, pó",
+      "category": "Miscelâneas",
+      "kcal": 380
+    },
+    {
+      "food": "Sal, dietético",
+      "category": "Miscelâneas",
+      "kcal": ""
+    },
+    {
+      "food": "Sal, grosso",
+      "category": "Miscelâneas",
+      "kcal": ""
+    },
+    {
+      "food": "Shoyu",
+      "category": "Miscelâneas",
+      "kcal": 61
+    },
+    {
+      "food": "Tempero a base de sal",
+      "category": "Miscelâneas",
+      "kcal": 21
+    },
+    {
+      "food": "Amêndoa, torrada, salgada",
+      "category": "Nozes e sementes",
+      "kcal": 581
+    },
+    {
+      "food": "Castanha-de-caju, torrada, salgada",
+      "category": "Nozes e sementes",
+      "kcal": 570
+    },
+    {
+      "food": "Castanha-do-Brasil, crua",
+      "category": "Nozes e sementes",
+      "kcal": 643
+    },
+    {
+      "food": "Coco, cru",
+      "category": "Nozes e sementes",
+      "kcal": 406
+    },
+    {
+      "food": "Farinha, de mesocarpo de babaçu, crua",
+      "category": "Nozes e sementes",
+      "kcal": 329
+    },
+    {
+      "food": "Gergelim, semente",
+      "category": "Nozes e sementes",
+      "kcal": 584
+    },
+    {
+      "food": "Linhaça, semente",
+      "category": "Nozes e sementes",
+      "kcal": 495
+    },
+    {
+      "food": "Noz, crua",
+      "category": "Nozes e sementes",
+      "kcal": 620
+    },
+    {
+      "food": "Pinhão, cozido",
+      "category": "Nozes e sementes",
+      "kcal": 174
+    },
+    {
+      "food": "Pupunha, cozida",
+      "category": "Nozes e sementes",
+      "kcal": 219
+    },
+    {
+      "food": "Azeito, preta, conserva",
+      "category": "Outros alimentos industrializados",
+      "kcal": 194
+    },
+    {
+      "food": "Azeito, verde, conserva",
+      "category": "Outros alimentos industrializados",
+      "kcal": 137
+    },
+    {
+      "food": "Chantilly, spray, com gordura vegetal",
+      "category": "Outros alimentos industrializados",
+      "kcal": 315
+    },
+    {
+      "food": "Leite, de coco",
+      "category": "Outros alimentos industrializados",
+      "kcal": 166
+    },
+    {
+      "food": "Maionese, adiciol com ovos",
+      "category": "Outros alimentos industrializados",
+      "kcal": 302
+    },
+    {
+      "food": "Omelete, de queijo",
+      "category": "Ovos e derivados",
+      "kcal": 268
+    },
+    {
+      "food": "Ovo, de codor, inteiro, cru",
+      "category": "Ovos e derivados",
+      "kcal": 177
+    },
+    {
+      "food": "Ovo, de galinha, clara, cozida/10minutos",
+      "category": "Ovos e derivados",
+      "kcal": 59
+    },
+    {
+      "food": "Ovo, de galinha, gema, cozida/10minutos",
+      "category": "Ovos e derivados",
+      "kcal": 353
+    },
+    {
+      "food": "Ovo, de galinha, inteiro, cozido/10minutos",
+      "category": "Ovos e derivados",
+      "kcal": 146
+    },
+    {
+      "food": "Ovo, de galinha, inteiro, cru",
+      "category": "Ovos e derivados",
+      "kcal": 143
+    },
+    {
+      "food": "Ovo, de galinha, inteiro, frito",
+      "category": "Ovos e derivados",
+      "kcal": 240
+    },
+    {
+      "food": "Abadejo, filé, congelado, assado",
+      "category": "Pescados e frutos do mar",
+      "kcal": 112
+    },
+    {
+      "food": "Abadejo, filé, congelado, cru",
+      "category": "Pescados e frutos do mar",
+      "kcal": 59
+    },
+    {
+      "food": "Abadejo, filé, congelado, grelhado",
+      "category": "Pescados e frutos do mar",
+      "kcal": 130
+    },
+    {
+      "food": "Abadejo, filé, congelado,cozido",
+      "category": "Pescados e frutos do mar",
+      "kcal": 91
+    },
+    {
+      "food": "Atum, conserva em óleo",
+      "category": "Pescados e frutos do mar",
+      "kcal": 166
+    },
+    {
+      "food": "Atum, fresco, cru",
+      "category": "Pescados e frutos do mar",
+      "kcal": 118
+    },
+    {
+      "food": "Bacalhau, salgado, cru",
+      "category": "Pescados e frutos do mar",
+      "kcal": 136
+    },
+    {
+      "food": "Bacalhau, salgado, refogado",
+      "category": "Pescados e frutos do mar",
+      "kcal": 140
+    },
+    {
+      "food": "Cação, posta, com farinha de igo, frita",
+      "category": "Pescados e frutos do mar",
+      "kcal": 208
+    },
+    {
+      "food": "Cação, posta, cozida",
+      "category": "Pescados e frutos do mar",
+      "kcal": 116
+    },
+    {
+      "food": "Cação, posta, crua",
+      "category": "Pescados e frutos do mar",
+      "kcal": 83
+    },
+    {
+      "food": "Camarão, Rio Grande, grande, cozido",
+      "category": "Pescados e frutos do mar",
+      "kcal": 90
+    },
+    {
+      "food": "Camarão, Rio Grande, grande, cru",
+      "category": "Pescados e frutos do mar",
+      "kcal": 47
+    },
+    {
+      "food": "Camarão, Sete Barbas, sem cabeça, com casca, frito",
+      "category": "Pescados e frutos do mar",
+      "kcal": 231
+    },
+    {
+      "food": "Caranguejo, cozido",
+      "category": "Pescados e frutos do mar",
+      "kcal": 83
+    },
+    {
+      "food": "Corimba, cru",
+      "category": "Pescados e frutos do mar",
+      "kcal": 128
+    },
+    {
+      "food": "Corimbatá, assado",
+      "category": "Pescados e frutos do mar",
+      "kcal": 261
+    },
+    {
+      "food": "Corimbatá, cozido",
+      "category": "Pescados e frutos do mar",
+      "kcal": 239
+    },
+    {
+      "food": "Corvina de água doce, crua",
+      "category": "Pescados e frutos do mar",
+      "kcal": 101
+    },
+    {
+      "food": "Corvina do mar, crua",
+      "category": "Pescados e frutos do mar",
+      "kcal": 94
+    },
+    {
+      "food": "Corvina grande, assada",
+      "category": "Pescados e frutos do mar",
+      "kcal": 147
+    },
+    {
+      "food": "Corvina grande, cozida",
+      "category": "Pescados e frutos do mar",
+      "kcal": 100
+    },
+    {
+      "food": "Dourada de água doce, fresca",
+      "category": "Pescados e frutos do mar",
+      "kcal": 131
+    },
+    {
+      "food": "Lambari, congelado, cru",
+      "category": "Pescados e frutos do mar",
+      "kcal": 131
+    },
+    {
+      "food": "Lambari, congelado, frito",
+      "category": "Pescados e frutos do mar",
+      "kcal": 327
+    },
+    {
+      "food": "Lambari, fresco, cru",
+      "category": "Pescados e frutos do mar",
+      "kcal": 152
+    },
+    {
+      "food": "Manjuba, com farinha de igo, frita",
+      "category": "Pescados e frutos do mar",
+      "kcal": 344
+    },
+    {
+      "food": "Manjuba, frita",
+      "category": "Pescados e frutos do mar",
+      "kcal": 349
+    },
+    {
+      "food": "Merluza, filé, assado",
+      "category": "Pescados e frutos do mar",
+      "kcal": 122
+    },
+    {
+      "food": "Merluza, filé, cru",
+      "category": "Pescados e frutos do mar",
+      "kcal": 89
+    },
+    {
+      "food": "Merluza, filé, frito",
+      "category": "Pescados e frutos do mar",
+      "kcal": 192
+    },
+    {
+      "food": "Pescada, branca, crua",
+      "category": "Pescados e frutos do mar",
+      "kcal": 111
+    },
+    {
+      "food": "Pescada, branca, frita",
+      "category": "Pescados e frutos do mar",
+      "kcal": 223
+    },
+    {
+      "food": "Pescada, filé, com farinha de trigo, frito",
+      "category": "Pescados e frutos do mar",
+      "kcal": 283
+    },
+    {
+      "food": "Pescada, filé, cru",
+      "category": "Pescados e frutos do mar",
+      "kcal": 107
+    },
+    {
+      "food": "Pescada, filé, frito",
+      "category": "Pescados e frutos do mar",
+      "kcal": 154
+    },
+    {
+      "food": "Pescada, filé, molho escabeche",
+      "category": "Pescados e frutos do mar",
+      "kcal": 142
+    },
+    {
+      "food": "Pescadinha, crua",
+      "category": "Pescados e frutos do mar",
+      "kcal": 76
+    },
+    {
+      "food": "Pintado, assado",
+      "category": "Pescados e frutos do mar",
+      "kcal": 192
+    },
+    {
+      "food": "Pintado, cru",
+      "category": "Pescados e frutos do mar",
+      "kcal": 91
+    },
+    {
+      "food": "Pintado, grelhado",
+      "category": "Pescados e frutos do mar",
+      "kcal": 152
+    },
+    {
+      "food": "Porquinho, cru",
+      "category": "Pescados e frutos do mar",
+      "kcal": 93
+    },
+    {
+      "food": "Salmão, filé, com pele, fresco, grelhado",
+      "category": "Pescados e frutos do mar",
+      "kcal": 229
+    },
+    {
+      "food": "Salmão, sem pele, fresco, cru",
+      "category": "Pescados e frutos do mar",
+      "kcal": 170
+    },
+    {
+      "food": "Salmão, sem pele, fresco, grelhado",
+      "category": "Pescados e frutos do mar",
+      "kcal": 243
+    },
+    {
+      "food": "Sardinha, assada",
+      "category": "Pescados e frutos do mar",
+      "kcal": 164
+    },
+    {
+      "food": "Sardinha, conserva em óleo",
+      "category": "Pescados e frutos do mar",
+      "kcal": 285
+    },
+    {
+      "food": "Sardinha, frita",
+      "category": "Pescados e frutos do mar",
+      "kcal": 257
+    },
+    {
+      "food": "Sardinha, inteira, crua",
+      "category": "Pescados e frutos do mar",
+      "kcal": 114
+    },
+    {
+      "food": "Tucunaré, filé, congelado, cru",
+      "category": "Pescados e frutos do mar",
+      "kcal": 88
+    },
+    {
+      "food": "Achocolatado, pó",
+      "category": "Produtos açucarados",
+      "kcal": 401
+    },
+    {
+      "food": "Açúcar, cristal",
+      "category": "Produtos açucarados",
+      "kcal": 387
+    },
+    {
+      "food": "Açúcar, mascavo",
+      "category": "Produtos açucarados",
+      "kcal": 369
+    },
+    {
+      "food": "Açúcar, refinado",
+      "category": "Produtos açucarados",
+      "kcal": 387
+    },
+    {
+      "food": "Chocolate, ao leite",
+      "category": "Produtos açucarados",
+      "kcal": 540
+    },
+    {
+      "food": "Chocolate, ao leite, com castanha do Pará",
+      "category": "Produtos açucarados",
+      "kcal": 559
+    },
+    {
+      "food": "Chocolate, ao leite, dietético",
+      "category": "Produtos açucarados",
+      "kcal": 557
+    },
+    {
+      "food": "Chocolate, meio amargo",
+      "category": "Produtos açucarados",
+      "kcal": 475
+    },
+    {
+      "food": "Cocada branca",
+      "category": "Produtos açucarados",
+      "kcal": 449
+    },
+    {
+      "food": "Doce, de abóbora, cremoso",
+      "category": "Produtos açucarados",
+      "kcal": 199
+    },
+    {
+      "food": "Doce, de leite, cremoso",
+      "category": "Produtos açucarados",
+      "kcal": 306
+    },
+    {
+      "food": "Geléia, mocotó, tural",
+      "category": "Produtos açucarados",
+      "kcal": 106
+    },
+    {
+      "food": "Glicose de milho",
+      "category": "Produtos açucarados",
+      "kcal": 292
+    },
+    {
+      "food": "Maria mole",
+      "category": "Produtos açucarados",
+      "kcal": 301
+    },
+    {
+      "food": "Maria mole, coco queimado",
+      "category": "Produtos açucarados",
+      "kcal": 307
+    },
+    {
+      "food": "Marmelada",
+      "category": "Produtos açucarados",
+      "kcal": 257
+    },
+    {
+      "food": "Mel, de abelha",
+      "category": "Produtos açucarados",
+      "kcal": 309
+    },
+    {
+      "food": "Melado",
+      "category": "Produtos açucarados",
+      "kcal": 297
+    },
+    {
+      "food": "Quindim",
+      "category": "Produtos açucarados",
+      "kcal": 411
+    },
+    {
+      "food": "Rapadura",
+      "category": "Produtos açucarados",
+      "kcal": 352
+    },
+    {
+      "food": "Abóbora, cabotian, cozida",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 48
+    },
+    {
+      "food": "Abóbora, cabotian, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 39
+    },
+    {
+      "food": "Abóbora, menina brasileira, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 14
+    },
+    {
+      "food": "Abóbora, moranga, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 12
+    },
+    {
+      "food": "Abóbora, moranga, refogada",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 29
+    },
+    {
+      "food": "Abóbora, pescoço, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 24
+    },
+    {
+      "food": "Abobrinha, italia, cozida",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 15
+    },
+    {
+      "food": "Abobrinha, italia, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 19
+    },
+    {
+      "food": "Abobrinha, italia, refogada",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 24
+    },
+    {
+      "food": "Abobrinha, paulista, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 31
+    },
+    {
+      "food": "Acelga, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 21
+    },
+    {
+      "food": "Agrião, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 17
+    },
+    {
+      "food": "Aipo, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 19
+    },
+    {
+      "food": "Alface, americana, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 9
+    },
+    {
+      "food": "Alface, crespa, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 11
+    },
+    {
+      "food": "Alface, lisa, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 14
+    },
+    {
+      "food": "Alface, roxa, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 13
+    },
+    {
+      "food": "Alfavaca, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 29
+    },
+    {
+      "food": "Alho, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 113
+    },
+    {
+      "food": "Alho-poró, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 32
+    },
+    {
+      "food": "Almeirão, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 18
+    },
+    {
+      "food": "Almeirão, refogado",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 65
+    },
+    {
+      "food": "Batata, baroa, cozida",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 80
+    },
+    {
+      "food": "Batata, baroa, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 101
+    },
+    {
+      "food": "Batata, doce, cozida",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 77
+    },
+    {
+      "food": "Batata, doce, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 118
+    },
+    {
+      "food": "Batata, frita, tipo chips, indusializada",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 543
+    },
+    {
+      "food": "Batata, inglesa, cozida",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 52
+    },
+    {
+      "food": "Batata, inglesa, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 64
+    },
+    {
+      "food": "Batata, inglesa, frita",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 267
+    },
+    {
+      "food": "Batata, inglesa, sauté",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 68
+    },
+    {
+      "food": "Berinjela, cozida",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 19
+    },
+    {
+      "food": "Berinjela, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 20
+    },
+    {
+      "food": "Beterraba, cozida",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 32
+    },
+    {
+      "food": "Beterraba, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 49
+    },
+    {
+      "food": "Biscoito, polvilho doce",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 438
+    },
+    {
+      "food": "Brócolis, cozido",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 25
+    },
+    {
+      "food": "Brócolis, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 25
+    },
+    {
+      "food": "Cará, cozido",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 78
+    },
+    {
+      "food": "Cará, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 96
+    },
+    {
+      "food": "Caruru, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 34
+    },
+    {
+      "food": "Catalonha, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 24
+    },
+    {
+      "food": "Catalonha, refogada",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 63
+    },
+    {
+      "food": "Cebola, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 39
+    },
+    {
+      "food": "Cebolinha, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 20
+    },
+    {
+      "food": "Cenoura, cozida",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 30
+    },
+    {
+      "food": "Cenoura, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 34
+    },
+    {
+      "food": "Chicória, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 14
+    },
+    {
+      "food": "Chuchu, cozido",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 19
+    },
+    {
+      "food": "Chuchu, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 17
+    },
+    {
+      "food": "Coeno, folhas desidratadas",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 309
+    },
+    {
+      "food": "Couve, manteiga, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 27
+    },
+    {
+      "food": "Couve, manteiga, refogada",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 90
+    },
+    {
+      "food": "Couve-flor, cozida",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 19
+    },
+    {
+      "food": "Couve-flor, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 23
+    },
+    {
+      "food": "Espifre, Nova Zelândia, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 16
+    },
+    {
+      "food": "Espifre, Nova Zelândia, refogado",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 67
+    },
+    {
+      "food": "Farinha, de mandioca, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 361
+    },
+    {
+      "food": "Farinha, de mandioca, torrada",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 365
+    },
+    {
+      "food": "Farinha, de puba",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 360
+    },
+    {
+      "food": "Fécula, de mandioca",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 331
+    },
+    {
+      "food": "Feijão, broto, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 39
+    },
+    {
+      "food": "Inhame, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 97
+    },
+    {
+      "food": "Jiló, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 27
+    },
+    {
+      "food": "Jurubeba, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 126
+    },
+    {
+      "food": "Mandioca, cozida",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 125
+    },
+    {
+      "food": "Mandioca, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 151
+    },
+    {
+      "food": "Mandioca, farofa, temperada",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 406
+    },
+    {
+      "food": "Mandioca, frita",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 300
+    },
+    {
+      "food": "Manjericão, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 21
+    },
+    {
+      "food": "Maxixe, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 14
+    },
+    {
+      "food": "Mostarda, folha, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 18
+    },
+    {
+      "food": "Nabo, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 18
+    },
+    {
+      "food": "Nhoque, batata, cozido",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 181
+    },
+    {
+      "food": "Palmito, juçara, em conserva",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 23
+    },
+    {
+      "food": "Palmito, pupunha, em conserva",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 29
+    },
+    {
+      "food": "Pão, de queijo, assado",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 363
+    },
+    {
+      "food": "Pão, de queijo, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 295
+    },
+    {
+      "food": "Pepino, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 10
+    },
+    {
+      "food": "Pimentão, amarelo, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 28
+    },
+    {
+      "food": "Pimentão, verde, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 21
+    },
+    {
+      "food": "Pimentão, vermelho, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 23
+    },
+    {
+      "food": "Polvilho, doce",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 351
+    },
+    {
+      "food": "Quiabo, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 30
+    },
+    {
+      "food": "Rabanete, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 14
+    },
+    {
+      "food": "Repolho, branco, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 17
+    },
+    {
+      "food": "Repolho, roxo, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 31
+    },
+    {
+      "food": "Repolho, roxo, refogado",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 42
+    },
+    {
+      "food": "Rúcula, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 13
+    },
+    {
+      "food": "Salsa, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 33
+    },
+    {
+      "food": "Seleta de legumes, enlatada",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 57
+    },
+    {
+      "food": "Serralha, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 30
+    },
+    {
+      "food": "Taioba, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 34
+    },
+    {
+      "food": "Tomate, com semente, cru",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 15
+    },
+    {
+      "food": "Tomate, exato",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 61
+    },
+    {
+      "food": "Tomate, molho industrializado",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 38
+    },
+    {
+      "food": "Tomate, purê",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 28
+    },
+    {
+      "food": "Tomate, salada",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 21
+    },
+    {
+      "food": "Vagem, crua",
+      "category": "Verduras, hortaliças e derivados",
+      "kcal": 25
     }
   ]
 }
